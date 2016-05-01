@@ -1,0 +1,42 @@
+@import "_constants";
+@import "_fonts";
+
+.menu {
+	position: relative;
+	height: 60px;
+	background-color: #3f3f3f;
+	color: #fff;
+	padding-top: 8px;
+	.logo {
+		display: inline-block;
+		height: 45px;
+	}
+	ul>li {
+		display: inline-block;
+		margin-top: 15px;
+		padding-right: 30px;
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+	a {
+		font-family: "OpenSansLight", sans-serif;
+		font-size: 15px;
+		color: #fff;
+	}
+	.language {
+		ul li {
+			float: right;
+			display: inline-block;
+			padding-right: 4px;
+			margin-top: 14px;
+		}
+	}
+}
+
+
+
+ol, ul {
+	margin-left: 64px;
+	padding-left: 85px;
+}
